@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <style>
+    p {
+      font-size: 22pt;
+    }
+    a {
+      font-size: 18pt;
+    }
+  </style>
+  <body>
+    <p>Ini Halaman index</p>
+    <a href="tugas43.html">Go to Tugas</a>
+    <br />
+    <br />
+    <h3>Akses histori : </h3>
+    <button onclick="goBack()">Balik dah balik</button>
+    <button onclick="goForward()">Maju dah Maju</button>
+    <script type="text/javascript">
+    function goBack(){
+      window.history.back()
+    }
+    function goForward(){
+      window.history.forward()
+    }
+
+    </script>
+  </body>
+</html>
